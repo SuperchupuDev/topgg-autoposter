@@ -1,10 +1,15 @@
-# Top.gg AutoPoster
+# Top.gg AutoPoster except it makes typescript a dev dep
+
+i needed [jpbberry/topgg-autoposter#6](https://github.com/jpbberry/topgg-autoposter/pull/6) right now so i made a fork to use it while waiting for it be merged
+
+i guess ill deprecate this when it happens
+
 Easy AutoPosting via the [top.gg sdk](https://npmjs.com/package/@top-gg/sdk)
 
 # How to
 It's really really simple! All you gotta do is:
 ```js
-const { AutoPoster } = require('topgg-autoposter')
+const { AutoPoster } = require('@superchupu/topgg-autoposter')
 
 const poster = AutoPoster('topggtoken', client) // your discord.js or eris client
 

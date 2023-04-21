@@ -1,6 +1,6 @@
 {
-  "name": "topgg-autoposter",
-  "version": "2.0.1",
+  "name": "@superchupu/topgg-autoposter",
+  "version": "2.0.2",
   "description": "Auto-Poster for Top.gg",
   "main": "dist/index.js",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jpbberry/topgg-autoposter.git"
+    "url": "git+https://github.com/SuperchupuDev/topgg-autoposter.git"
   },
-  "author": "JPBBerry",
+  "author": "Superchupu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jpbberry/topgg-autoposter/issues"
+    "url": "https://github.com/SuperchupuDev/topgg-autoposter/issues"
   },
-  "homepage": "https://github.com/jpbberry/topgg-autoposter#readme",
+  "homepage": "https://github.com/SuperchupuDev/topgg-autoposter#readme",
   "devDependencies": {
     "@types/express": "^4.17.17",
     "discord-rose": "latest",
@@ -27,7 +27,10 @@
   },
   "dependencies": {
     "@jpbberry/typed-emitter": "^1.2.1",
-    "@top-gg/sdk": "^3.1.4"
+    "@top-gg/sdk": "^3.1.5"
   },
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
 }
