@@ -4,6 +4,8 @@ i needed [jpbberry/topgg-autoposter#6](https://github.com/jpbberry/topgg-autopos
 
 i guess ill deprecate this when it happens
 
+## The pull request got merged so this is now deprecated, switch to `topgg-autoposter`
+
 Easy AutoPosting via the [top.gg sdk](https://npmjs.com/package/@top-gg/sdk)
 
 # How to
